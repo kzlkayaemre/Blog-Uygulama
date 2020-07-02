@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tooltip.css">
+
+</head>
+
+<body>
+
+    <div id="general_header">
+
+        <!--Navbar çubuğu tüm ekrana yaslanacak container'kısmındaki verilen 1000px'lik kısıtlama olmayacak arka plan rengi tamamen
+    etkilenecek fakat aşığıda verilen container div i ile container class'ında tanımladığımız 1000px'lik kısıtlama ve sağa sola yaslanan içerik
+    özellikleri kullanmış olacağız-->
+        <div id="nav">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="file:///C:/Users/Kzlkaya/Desktop/Web%20Dev/Deneme-uygulama/Blog-Uygulama/home.html"> <i class="fas fa-home"></i> </a>
+                    </li>
+                    <li style="float: right;"><a class="active" href="">My Posts</a></li>
+                    <li><a href="file:///C:/Users/Kzlkaya/Desktop/Web%20Dev/Deneme-uygulama/Blog-Uygulama/galery.html">Galery</a></li>
+                    <li><a href="file:///C:/Users/Kzlkaya/Desktop/Web%20Dev/Deneme-uygulama/Blog-Uygulama/account.html">Account</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="container mt20">
+
+
+            <div id="blog-post-container">
+
+                <div class="blog-posts box">
+                    <img src="image/html-css.png" alt="css-html-js">
+                    <div class="blok-post-body p20">
+                        <h2 class="blog-title">
+                            <a href="">
+                                <span class="tooltip"> 
+                                   Front-End Nedir ?
+                                   <span class="tooltip-text ok">
+                                    Front-End Nedir ?
+                                   </span>
+                                </span>
+                            </a>
+                        </h2>
+                        <p class="date">23/05/20</p>
+                        <div class="for-border-line">
+                            <p class="blog-text">
+                                Ziyaret edilen her sayfa için güzel bir görünüm ve iyi bir his yaratıyor. Başka bir deyişle direkt etkileşime geçtiğiniz ve gözünüzle görebildiğiniz her sayfa için renk, fon ve diğer tüm stilleri oluşturuyor. Web sitesi kullanıcılarına marka kimliğini
+                                yansıtıp duygusal deneyim yaşatıyor.
+                                <br><br> Front-End; HTML, CSS ve JavaScript programlama dilleri kullanılıyor. Bu programlama dilleri web sitesinin size yansıyan görünüşüne odaklanıyor.
+                                <br><br> Ücretsiz web site tasarımları için;
+                            </p>
+                        </div>
+
+                        <ul class="tags ">
+                            <li> <a class="tag btn" href="https://tr.wix.com/" target="_blank">wix</a> </li>
+                            <li> <a class="tag btn" href="https://tr.wordpress.com/" target="_blank">wordpress</a> </li>
+                            <li> <a class="tag btn" href="https://downloads.joomla.org/tr/">Joomla!</a> </li>
+                            <li> <a class="tag btn" href="https://tr.site123.com/" target="_blank">site123</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-posts box">
+                    <img src="image/html.jpg" alt="css-html-js">
+                    <div class="blok-post-body p20">
+                        <h2 class="blog-title">
+                            <a href="">
+                                <span class="tooltip"> 
+                                   HTML Nedir ?
+                                   <span class="tooltip-text ok">
+                                    HTML Nedir ?
+                                   </span>
+                                </span>
+                            </a>
+                        </h2>
+                        <p class="date">23/05/20</p>
+                        <p class="blog-text">
+                            Hiper Metin İşaretleme Dili web sayfalarını oluşturmak için kullanılan standart metin işaretleme dilidir. Dilin son sürümü HTML5'tir. HTML, bir programlama dili olarak tanımlanamaz. Zira HTML kodlarıyla kendi başına çalışan bir program yazılamaz.
+                            <br><br>Aktif ve Dinamik bir web sitesi için CSS,JavaScript gibi front-ent ve Asp.net, Node js, Java, Python gibi dilleri ilede Back-end kısımları için kullanılması gereken dillerdir.
+
+                        </p>
+
+                        <ul class="tags ">
+                            <li> <a class="tag btn" href="https://wmaraci.com/nedir/backend" target="_blank">Back-end nedir?</a> </li>
+                            <li> <a class="tag btn" href="https://www.armadigital.net/web-tasarim-blog/asp-net-nedir" target="_blank">Asp.Net nedir?</a> </li>
+                            <li> <a class="tag btn" href="https://www.java.com/tr/download/faq/whatis_java.xml" target="_blank">Java nedir?</a> </li>
+                            <li> <a class="tag btn" href="https://medium.com/reengen/node-js-nedir-ne-de%C4%9Fildir-9d5781f1fe50" target="_blank">node js nedir?</a> </li>
+                            <li> <a class="tag btn" href="https://www.mediaclick.com.tr/blog/python-nedir" target="_blank">Python nedir?</a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div id="other">
+
+                <div id="inner-other-post" class="box p20">
+                    <!--inner-other-post div'i ile box-size'den gelen other düzenlemesi
+                ve arka plan yapışmasını ayrımak için box clasını other post'a eklemek yerine
+                yeni oluşturduğumuz inner-other-post divine verdik-->
+
+                    <h4 class="header">Popular Posts</h4>
+
+
+                    <ul>
+                        <li>
+                            <i class="fas fa-angle-double-right"></i> Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-angle-double-right"></i> Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-angle-double-right"></i> Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-angle-double-right"></i> Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-angle-double-right"></i> Lorem ipsum dolor sit amet.
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div id="share" class="box p20">
+                    <h4 class="header">Share</h4>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                    <a href="https://twitter.com/login?lang=tr" target="_blank">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/?hl=tr" target="_blank">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <i class="fab fa-youtube-square fa-2x"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- post ve other post kısmından sonra author kısmı alttan devam etmesi arada kalan boşluğun
+        silinmesi için clear işlemi yaptık -->
+            <div style="clear: both;"></div>
+
+            <div id="author-information">
+                <img style="width: 140px;" src="image/kzlkaya.jpg" alt="kzlkaya">
+                <p class="author-text">Emre Kızılkaya <br> emrekzlkaya00@gmail.com</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

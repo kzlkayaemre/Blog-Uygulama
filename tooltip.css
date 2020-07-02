@@ -1,0 +1,36 @@
+    .tooltip {
+        position: relative;
+    }
+    
+    .tooltip .tooltip-text {
+        display: none;
+        background-color: black;
+        color: #fff;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 3px;
+        /*yazını ön plana alır*/
+        z-index: 1;
+        opacity: .75;
+        position: absolute;
+        /*tooltipin yazının neresinde olacağını (alt üst sağ sol) belirleriz*/
+        bottom: 40px;
+        right: 65px;
+    }
+    
+    .ok::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltip-text {
+        display: inline-block;
+    }
